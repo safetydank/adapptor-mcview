@@ -2,7 +2,7 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 
-LOCAL_MODULE := mcview
+LOCAL_MODULE := mcview-glue
 
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/mcview
 LOCAL_SRC_FILES  := mcview/MCNative.cpp
